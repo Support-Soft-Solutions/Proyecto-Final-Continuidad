@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <title>Título de la Página</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="">
+</head>
+<body>
+    <header>
+        <h1>Encabezado de la Página</h1>
+    </header>
+
+    <main>
+        <article>
+            <h1>Calculadora de Salario con IVA</h1>
+            <label for="salario">Salario:</label>
+            <input type="number" id="salario">
+            <br><br>
+            <label for="iva">Seleccione el IVA:</label>
+            <select id="iva">
+                <option value="0.05">5%</option>
+                <option value="0.12">12%</option>
+            </select>
+            <br><br>
+            <button onclick="calcular()">Calcular</button>
+            <br><br>
+            <label for="resultado">Salario con IVA:</label>
+            <input type="text" id="resultado">
+            <br><br>
+            <label for="salario-iva">Salario menos IVA:</label>
+            <input type="text" id="salario-iva">
+        </article>
+    </main>
+
+    <footer>
+        <p>Derechos de autor © 2024. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
